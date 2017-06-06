@@ -1,0 +1,5 @@
+exercise\CommunicationException.class
+exercise\Joke.class
+exercise\Fetcher.class
+rest\JokesService.class
+rest\ApplicationConfig.class
