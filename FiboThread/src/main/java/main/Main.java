@@ -1,4 +1,4 @@
-package com.vetterlain.fibothread;
+package main;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -26,7 +26,7 @@ public class Main {
             new Main().startProducers(8);
     }
 
-    public void startProducers(int amount) throws InterruptedException  {        
+    public void startProducers(Integer amount) throws InterruptedException  {        
         ArrayList<MyProducer> liste = new ArrayList();
         for (int i = 0; i < amount; i++) {
             MyProducer myProducer = new MyProducer();

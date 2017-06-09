@@ -1,4 +1,4 @@
-package com.vetterlain.fibothread;
+package main;
 
 /**
  *
